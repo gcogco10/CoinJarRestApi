@@ -47,6 +47,8 @@ namespace CoinJarRestAPI.Dependency_Injection
             coins.First(t => t.CoinType == coinType).Amount += count;
         }
 
+        
+
         // Get the total
         public decimal GetTotalAmount() => coins.Select(h => (decimal)h.CoinType * (decimal)h.Amount).Sum() / 100m;
 
