@@ -5,4 +5,5 @@ This application uses Dependency Injection, to implement coinjar in c# web api. 
 On the Startup.cs the application uses Singleton Design pattern.
 To run this application on windows application, must have these installed on your machine.
 Visual Studio 2017-2019.
-Clone this project using this URl on your machine or either download
+Clone this project using this URl on your machine or either download the project as a zip file on your machine.
+https://github.com/gcogco10/CoinJarRestApi/tree/master
